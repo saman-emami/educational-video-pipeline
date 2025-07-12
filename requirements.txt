@@ -1,0 +1,27 @@
+# Core AI and ML
+torch
+transformers
+
+# Manim for mathematical animations
+manim
+
+# Text-to-Speech (XTTS-v2)
+TTS
+
+# Audio processing
+torchaudio
+
+# YAML parsing
+pyyaml
+
+# Progress bar for CLI
+tqdm
+
+# For LLM and TTS model downloads (if using Hugging Face)
+huggingface_hub
+
+# For video/audio processing
+ffmpeg-python
+
+# Optional: For type checking and linting
+mypy
