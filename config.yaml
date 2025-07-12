@@ -1,0 +1,25 @@
+llm_config:
+  model_name: "deepseek-ai/DeepSeek-Coder-V2-Lite-Base"
+  temperature: 0.7
+  max_tokens: 4000
+  device: "cuda"  # or "cpu" if running without GPU
+
+tts_config:
+  model_name: "tts_models/multilingual/multi-dataset/xtts_v2"
+  language: "en"
+  voice: "default"
+  speed: 1.0
+  device: "cuda"  # or "cpu" if running without GPU
+
+manim_config:
+  quality: "medium_quality"  # Options: low_quality, medium_quality, high_quality
+  frame_rate: 30
+  output_dir: "renders"
+
+audio_config:
+  sample_rate: 48000
+  channels: 2
+
+video_config:
+  bitrate: "4M"
+  output_dir: "final_videos"
